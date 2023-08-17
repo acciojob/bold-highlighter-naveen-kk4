@@ -1,12 +1,22 @@
 function highlight() {
-    //Write your code here
+    
+        let elements = document.querySelectorAll("strong");
+       for(let i of elements){
+       i.style.color="green";
+      
+       }
 
 
 }
 
 
 function return_normal() {
-    //Write your code here
+  
+        let elements = document.querySelectorAll("strong");
+       for(let i of elements){
+       i.style.color="black";
+       i.style.fontSize=100;
+       }
 
     
 }
